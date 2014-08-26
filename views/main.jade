@@ -36,7 +36,7 @@ html
 		script(src="/game.js")
 		script(type='text/javascript').
 			//var socket = io.connect();
-			var socket = io.connect('ws://racing-jturunen.rhcloud.com:8000/');
+			var socket = io.connect('ws://racing-tiko.rhcloud.com:8000/');
 			window.onload = function() {
 				var game = new Phaser.Game(800, 600, Phaser.AUTO, "gamecanvas");
 				game.state.add('Init', Racing.Init);
