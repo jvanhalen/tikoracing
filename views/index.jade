@@ -1,0 +1,12 @@
+doctype html
+html
+	include header
+	body
+		.container
+			.jumbotron.text-center
+				h1 My racing game
+				if (!user)
+					a.btn.btn-default(href="/login") Login
+				else
+					a.btn.btn-default(href="/logout") Logout
+					a.btn.btn-default(href="/main") Go to main page

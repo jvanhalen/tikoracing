@@ -1,0 +1,35 @@
+{
+  "name": "Racing",
+  "version": "0.0.1",
+  "description": "Tikorace",
+  "author": {
+    "name": "Jaakko Vanhala",
+    "email": "jaakko.vanhala@karelia.fi"
+  },
+  "homepage": "http://racing-tiko.rhcloud.com/",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "3.4.8",
+	"jade": "1.1.5",
+	"mongoose": "3.8.5",
+	"passport": "0.2.0",
+	"passport-local": "0.1.6",
+	"connect-flash": "0.1.1",
+	"bcrypt-nodejs": "latest",
+	"socket.io": "0.9.16"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
